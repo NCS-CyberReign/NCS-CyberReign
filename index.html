@@ -12,8 +12,9 @@
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { display: flex; flex-direction: column; background: #212329; color: #e0dada; }
-        appbar { display: block; background: #1b1d21; }
-        landing { font-size: xx-large; }
+        appbar { display: flex; align-items: center; background: #1b1d21; height: clamp( 80px, 10vw, 120px ); margin-bottom: auto;}
+        bg { display: flex; flex-direction: column; min-height: 60vh; font-size: xx-large; }
+        footer { min-height: 5vw; background: #1b1d21; margin-top: auto; }
     </style>
 </head>
 <body>
@@ -22,9 +23,9 @@
         <h1>NCS - Cyber Reign</h1>
     </appbar>
 
-    <Landing>
+    <bg>
         Page under construction
-    </Landing>
+    </bg>
     
 </body>
 </html>
